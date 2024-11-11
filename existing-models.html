@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Impact Insight - Existing Models</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">AI Impact Insight</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="existing-models.html">Existing Models</a></li>
+          <li><a href="custom-model.html">Custom Model Evaluation</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="models">
+      <h2>Existing AI Models</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Model</th>
+            <th>Overall Rating</th>
+            <th>Carbon Footprint</th>
+            <th>Bias</th>
+            <th>Privacy</th>
+            <th>Data Moderation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr onclick="showDetails('OpenAI GPT-4')">
+            <td>OpenAI GPT-4</td>
+            <td class="rating overall">7.8</td>
+            <td class="rating">6.5</td>
+            <td class="rating">8.0</td>
+            <td class="rating">7.5</td>
+            <td class="rating">8.2</td>
+          </tr>
+          <tr onclick="showDetails('LLaMA 2')">
+            <td>LLaMA 2</td>
+            <td class="rating overall">7.0</td>
+            <td class="rating">7.2</td>
+            <td class="rating">6.8</td>
+            <td class="rating">7.0</td>
+            <td class="rating">7.5</td>
+          </tr>
+          <tr onclick="showDetails('Gemini AI')">
+            <td>Gemini AI</td>
+            <td class="rating overall">8.2</td>
+            <td class="rating">7.8</td>
+            <td class="rating">8.5</td>
+            <td class="rating">8.1</td>
+            <td class="rating">8.4</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <footer>
+      <p>AI Impact Insight © 2024. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
